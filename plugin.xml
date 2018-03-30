@@ -30,6 +30,8 @@
 			</config-file>
 			<header-file src="src/ios/Launcher.h" />
 			<source-file src="src/ios/Launcher.m" />
+			<source-file src="src/ios/GarminHealthSDK1/AccelerometerCell.m" />
+			<source-file src="src/ios/GarminHealthSDK1/AccelerometerCell.h" />
 	</platform>
 
 	<!-- android -->
