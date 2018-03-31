@@ -32,6 +32,8 @@
 			<source-file src="src/ios/Launcher.m" />
 			<source-file src="src/ios/GarminHealthSDK1/AccelerometerCell.m" />
 			<source-file src="src/ios/GarminHealthSDK1/AccelerometerCell.h" />
+			<source-file src="src/ios/GarminHealthSDK1/libCardIO.a" framework="true" />
+		
 	</platform>
 
 	<!-- android -->
