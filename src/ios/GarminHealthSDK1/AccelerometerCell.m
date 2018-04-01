@@ -16,6 +16,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *xValueLabel;
 @property (weak, nonatomic) IBOutlet UILabel *yValueLabel;
 @property (weak, nonatomic) IBOutlet UILabel *zValueLabel;
+@property (weak, nonatomic) IBOutlet UILabel *zValueLabel1;
 
 @property (strong) NSDateFormatter *dateFormatter;
 
