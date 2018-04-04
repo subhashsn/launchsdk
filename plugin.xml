@@ -30,10 +30,6 @@
 			</config-file>
 			<header-file src="src/ios/Launcher.h" />
 			<source-file src="src/ios/Launcher.m" />
-			<source-file src="src/ios/GarminHealthSDK1/AccelerometerCell.m" />
-			<source-file src="src/ios/GarminHealthSDK1/AccelerometerCell.h" />
-			<source-file src="src/ios/GarminHealthSDK1/libPlot-v1_15_5_beta.a" framework="true" />
-		<framework src="libPlot-v1_15_5_beta.a" />
 	</platform>
 
 	<!-- android -->
