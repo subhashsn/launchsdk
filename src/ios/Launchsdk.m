@@ -1,7 +1,7 @@
-#import "Launcher.h"
+#import "Launchsdk.h"
 #import <Cordova/CDV.h>
 
-@implementation Launcher
+@implementation Launchsdk
 
 - (void)canLaunchsdk:(CDVInvokedUrlCommand*)command {
 	NSDictionary* options = [command.arguments objectAtIndex:0];
