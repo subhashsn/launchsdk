@@ -2,7 +2,7 @@
 <plugin
 		xmlns="http://apache.org/cordova/ns/plugins/1.0"
 		xmlns:android="http://schemas.android.com/apk/res/android"
-		id="cordova-plugin-app-launcher"
+		id="cordova-plugin-app-launchersdk"
 		version="0.4.0">
 
 	<name>Launcher</name>
@@ -18,7 +18,7 @@
 	</engines>
 
 	<js-module src="www/Launcher.js" name="Launcher">
-			<clobbers target="plugins.launcher" />
+			<clobbers target="launchesdk" />
 	</js-module>
 
 	<!-- ios -->
