@@ -5,7 +5,7 @@
 		id="cordova-plugin-app-launchersdk"
 		version="0.4.0">
 
-	<name>Launcher</name>
+	<name>Launchsdk</name>
 
 	<description>
 		This plugin allows you to see if other apps are installed and launch them. On Android, you can send extras to the launched Activity and receive result data (if available), as well as retrieve a list of applications that can open a specified uri.
@@ -24,12 +24,12 @@
 	<!-- ios -->
 	<platform name="ios">
 			<config-file target="config.xml" parent="/*">
-				<feature name="Launcher">
-						<param name="ios-package" value="Launcher" />
+				<feature name="Launchsdk">
+						<param name="ios-package" value="Launchsdk" />
 				</feature>
 			</config-file>
-			<header-file src="src/ios/Launcher.h" />
-			<source-file src="src/ios/Launcher.m" />
+			<header-file src="src/ios/Launchsdk.h" />
+			<source-file src="src/ios/Launchsdk.m" />
 	</platform>
 
 	<!-- android -->
@@ -39,7 +39,7 @@
 						<param name="android-package" value="com.hutchind.cordova.plugins.launcher.Launcher" />
 				</feature>
 			</config-file>
-			<source-file src="src/android/Launcher.java" target-dir="src/com/hutchind/cordova/plugins/launcher" />
+			<source-file src="src/android/Launchsdk.java" target-dir="src/com/hutchind/cordova/plugins/launcher" />
 			<source-file src="src/android/ParseTypes.java" target-dir="src/com/hutchind/cordova/plugins/launcher" />
 	</platform>
 </plugin>
