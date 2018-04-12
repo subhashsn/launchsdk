@@ -3,7 +3,7 @@
 
 @implementation Launcher
 
-- (void)canLaunch:(CDVInvokedUrlCommand*)command {
+- (void)canLaunchsdk:(CDVInvokedUrlCommand*)command {
 	NSDictionary* options = [command.arguments objectAtIndex:0];
 	CDVPluginResult * pluginResult = nil;
 
@@ -22,7 +22,7 @@
 	}
 }
 
-- (void)launch:(CDVInvokedUrlCommand*)command {
+- (void)launchsdk:(CDVInvokedUrlCommand*)command {
 	NSDictionary* options = [command.arguments objectAtIndex:0];
 	CDVPluginResult * pluginResult = nil;
 
